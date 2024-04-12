@@ -83,6 +83,7 @@
                 { "slug": "x-large", "size": "3rem", "name": "Extra Large" },
                 { "slug": "gigantic", "size": "3.75rem", "name": "Gigantic" }
             ],
+            "customFontSize": true,
             "lineHeight": true,
             "dropCap": true,
             "fontWeight": true,
@@ -163,5 +164,14 @@
             },
             "blockGap": "4rem"
         }
-    }
+    },
+    "customTemplates": [
+        {
+            "name": "full-width-page",
+            "title": "Full Width Page",
+            "postTypes": [
+                "page"
+            ]
+        }
+    ]
 }
